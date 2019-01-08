@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Bryan Boone"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Professional Photo 2.PNG"
   bio              : "I am a mechanical engineering student on path to graduate from the University of Oklahoma in 2019 with a bachelor of science, and in 2020 with a master of science."
   location         : "Norman, Oklahoma"
   email            :
@@ -280,10 +280,10 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-    scope:
+  -  scope:
       path: ""
       type: posts
-        values:
+    values:
       layout: single
       author_profile: true
       read_time: true
@@ -292,9 +292,9 @@ defaults:
       related: true
 
   # _pages
-   scope:
+  - scope:
     path: ""
     type: pages
-     values:
+  values:
    layout: single
    author_profile: true
