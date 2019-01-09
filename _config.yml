@@ -149,9 +149,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-    - label: "Linkedin"
-       icon: "fab fa-fw fa-Linkedin"
-       url: "www.linkedin.com/in/bryanboone"
 
 
 # Reading Files
