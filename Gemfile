@@ -1,11 +1,10 @@
-gem "github-pages", group: :jekyll_plugins
-
 source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem 'jekyll-kw-loremipsum'#, :source => "http://rubygems.org/gems/jekyll-kw-loremipsum/versions/0.2.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -23,5 +22,3 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 gem "kramdown-parser-gfm"
 
 gem "webrick"
-
-gem 'jekyll-image-size'
